@@ -1,10 +1,10 @@
-# MPower
-Installs the mPower system
+# MP
+Installs the full system
 
 ## TL;DR;
 
 ```console
-$ helm install mpower
+$ helm install mpw
 ```
 
 ## Installing the Chart
@@ -12,7 +12,7 @@ $ helm install mpower
 To install the chart with the release name `my-release`:
 
 ```console
-$ helm install my-release mpower
+$ helm install my-release mpw
 ```
 
 ## Uninstalling the Chart
