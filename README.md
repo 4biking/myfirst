@@ -1,13 +1,13 @@
-# MP
+# Main
 Installs the full system
 
-## TL;DR;
+## To install
 
 ```console
 $ helm install mpw
 ```
 
-## Installing the Chart
+## Installing the Chart using Helm3
 
 To install the chart with the release name `my-release`:
 
@@ -29,9 +29,9 @@ The command removes all the Kubernetes components associated with the chart and 
 
 | Parameter                                 | Description                                   | Default                                                 |
 |-------------------------------------------|-----------------------------------------------|---------------------------------------------------------|
-| `idp.enabled` | Deploy IAM/IDP service | true |
-| `ssms.enabled` | Deploy SSMS server | true |
-| `scp.enabled` | Deploy SCP services | true |
-| `scp.scp.tracing.opencensus.collector.host` | Hostname of OC-Collector service | oc-collector |
-| `tis.enabled` | Deploy TokenIssuer services | true |
+| `indp.enabled` | Deploy IAM/IDP service | true |
+| `sms.enabled` | Deploy SSMS server | true |
+| `scap.enabled` | Deploy SCP services | true |
+| `scap.scap.tracing.opencensus.collector.host` | Hostname of OC-Collector service | oc-collector |
+| `tokis.enabled` | Deploy TokenIssuer services | true |
 | `opencensus.enabled` | Deploy OC/OpenCensus services | true |
