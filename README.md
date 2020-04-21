@@ -31,7 +31,7 @@ The command removes all the Kubernetes components associated with the chart and 
 |-------------------------------------------|-----------------------------------------------|---------------------------------------------------------|
 | `indp.enabled` | Deploy IAM/IDP service | true |
 | `sms.enabled` | Deploy SSMS server | true |
-| `scap.enabled` | Deploy SCP services | true |
+| `scap.enabled` | Deploy SCP services [MY|DO|INT] | true |
 | `scap.scap.tracing.opencensus.collector.host` | Hostname of OC-Collector service | oc-collector |
 | `tokis.enabled` | Deploy TokenIssuer services | true |
 | `opencensus.enabled` | Deploy OC/OpenCensus services | true |
