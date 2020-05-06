@@ -29,9 +29,9 @@ The command removes all the Kubernetes components associated with the chart and 
 
 | Parameter                                 | Description                                   | Default                                                 |
 |-------------------------------------------|-----------------------------------------------|---------------------------------------------------------|
-| `indp.enabled` | Deploy IAM/IDP service | true |
-| `sms.enabled` | Deploy SSMS server | true |
-| `scap.enabled` | Deploy SCP services [MY | DO | INT] | true |
-| `scap.scap.tracing.opencensus.collector.host` | Hostname of OC-Collector service | oc-collector |
-| `tokis.enabled` | Deploy TokenIssuer services | true |
-| `opencensus.enabled` | Deploy OC/OpenCensus services | true |
+| `indeep.enabled` | Deploy DeeP service | true |
+| `sms.enabled` | Deploy SMS server | true |
+| `scap.enabled` | Deploy SCaPe services [MY | DO | INT] | true |
+| `scap.scape.tracing.` | Hostname of Scape service | scape.local.net |
+| `tokis.enabled` | Deploy Tokis services | true |
+| `opencensus.enabled` | Deploy Opencs services | true |
